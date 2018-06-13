@@ -1,0 +1,15 @@
+version: 1.0
+configuration:
+  has_webserver: true
+  ide_config:
+    default_open_files:
+      - src/App.js
+    project_menu:
+      run: npm run
+      install: npm install
+      test: npm test
+# Enable scoring by uncommenting the lines below
+# scoring:
+#   command: "npm test"
+#   files:
+#     - junit.xml
