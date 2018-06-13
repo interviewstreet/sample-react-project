@@ -8,8 +8,8 @@ configuration:
       run: npm run
       install: npm install
       test: npm test
-# Enable scoring by uncommenting the lines below
-# scoring:
-#   command: "npm test"
-#   files:
-#     - junit.xml
+#  Enable scoring by uncommenting the lines below
+#  scoring:
+#    command: "npm test"
+#    files:
+#      - junit.xml
