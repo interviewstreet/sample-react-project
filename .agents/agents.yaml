@@ -1,0 +1,27 @@
+repo:
+  name: sample-react-project
+  description: Sample react project for frontend role-based question
+  owner: hackerrank
+
+prerequisites:
+  - name: GitHub CLI
+  - name: yarn
+  - name: node
+    version: '>=14.0.0'
+
+setup:
+  - yarn install
+  - yarn start
+
+dev:
+  command: yarn start
+  port: 8000
+
+build:
+  command: yarn build
+
+test:
+  command: yarn test
+
+lint:
+  command: yarn lint
